@@ -27,13 +27,11 @@ const johnLennonFacts = (facts) => {
 const iLoveTheBeatles = (n) => {
   
   var love = [];
-  let i = 0;
   
   do {
+    n++;
     love.push('I love the Beatles!');
-  } while (n < 15) {
-    i++;
-  }
+  } while (n < 15);
   
   return love;
 };
